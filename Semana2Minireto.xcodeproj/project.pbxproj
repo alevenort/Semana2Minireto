@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9C74E161C692C400099631C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C74E151C692C400099631C /* AppDelegate.swift */; };
+		B9C74E181C692C400099631C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C74E171C692C400099631C /* ViewController.swift */; };
+		B9C74E1B1C692C400099631C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C74E191C692C400099631C /* Main.storyboard */; };
+		B9C74E1D1C692C400099631C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C74E1C1C692C400099631C /* Assets.xcassets */; };
+		B9C74E201C692C400099631C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C74E1E1C692C400099631C /* LaunchScreen.storyboard */; };
+		B9C74E2B1C692C400099631C /* Semana2MiniretoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C74E2A1C692C400099631C /* Semana2MiniretoTests.swift */; };
+		B9C74E361C692C400099631C /* Semana2MiniretoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C74E351C692C400099631C /* Semana2MiniretoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9C74E271C692C400099631C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9C74E0A1C692C400099631C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9C74E111C692C400099631C;
+			remoteInfo = Semana2Minireto;
+		};
+		B9C74E321C692C400099631C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9C74E0A1C692C400099631C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9C74E111C692C400099631C;
+			remoteInfo = Semana2Minireto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9C74E121C692C400099631C /* Semana2Minireto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Semana2Minireto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C74E151C692C400099631C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9C74E171C692C400099631C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9C74E1A1C692C400099631C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9C74E1C1C692C400099631C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9C74E1F1C692C400099631C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9C74E211C692C400099631C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C74E261C692C400099631C /* Semana2MiniretoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Semana2MiniretoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C74E2A1C692C400099631C /* Semana2MiniretoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semana2MiniretoTests.swift; sourceTree = "<group>"; };
+		B9C74E2C1C692C400099631C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C74E311C692C400099631C /* Semana2MiniretoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Semana2MiniretoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C74E351C692C400099631C /* Semana2MiniretoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semana2MiniretoUITests.swift; sourceTree = "<group>"; };
+		B9C74E371C692C400099631C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9C74E0F1C692C400099631C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C74E231C692C400099631C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C74E2E1C692C400099631C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9C74E091C692C400099631C = {
+			isa = PBXGroup;
+			children = (
+				B9C74E141C692C400099631C /* Semana2Minireto */,
+				B9C74E291C692C400099631C /* Semana2MiniretoTests */,
+				B9C74E341C692C400099631C /* Semana2MiniretoUITests */,
+				B9C74E131C692C400099631C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9C74E131C692C400099631C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9C74E121C692C400099631C /* Semana2Minireto.app */,
+				B9C74E261C692C400099631C /* Semana2MiniretoTests.xctest */,
+				B9C74E311C692C400099631C /* Semana2MiniretoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9C74E141C692C400099631C /* Semana2Minireto */ = {
+			isa = PBXGroup;
+			children = (
+				B9C74E151C692C400099631C /* AppDelegate.swift */,
+				B9C74E171C692C400099631C /* ViewController.swift */,
+				B9C74E191C692C400099631C /* Main.storyboard */,
+				B9C74E1C1C692C400099631C /* Assets.xcassets */,
+				B9C74E1E1C692C400099631C /* LaunchScreen.storyboard */,
+				B9C74E211C692C400099631C /* Info.plist */,
+			);
+			path = Semana2Minireto;
+			sourceTree = "<group>";
+		};
+		B9C74E291C692C400099631C /* Semana2MiniretoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9C74E2A1C692C400099631C /* Semana2MiniretoTests.swift */,
+				B9C74E2C1C692C400099631C /* Info.plist */,
+			);
+			path = Semana2MiniretoTests;
+			sourceTree = "<group>";
+		};
+		B9C74E341C692C400099631C /* Semana2MiniretoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9C74E351C692C400099631C /* Semana2MiniretoUITests.swift */,
+				B9C74E371C692C400099631C /* Info.plist */,
+			);
+			path = Semana2MiniretoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9C74E111C692C400099631C /* Semana2Minireto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C74E3A1C692C400099631C /* Build configuration list for PBXNativeTarget "Semana2Minireto" */;
+			buildPhases = (
+				B9C74E0E1C692C400099631C /* Sources */,
+				B9C74E0F1C692C400099631C /* Frameworks */,
+				B9C74E101C692C400099631C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Semana2Minireto;
+			productName = Semana2Minireto;
+			productReference = B9C74E121C692C400099631C /* Semana2Minireto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9C74E251C692C400099631C /* Semana2MiniretoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C74E3D1C692C400099631C /* Build configuration list for PBXNativeTarget "Semana2MiniretoTests" */;
+			buildPhases = (
+				B9C74E221C692C400099631C /* Sources */,
+				B9C74E231C692C400099631C /* Frameworks */,
+				B9C74E241C692C400099631C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9C74E281C692C400099631C /* PBXTargetDependency */,
+			);
+			name = Semana2MiniretoTests;
+			productName = Semana2MiniretoTests;
+			productReference = B9C74E261C692C400099631C /* Semana2MiniretoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9C74E301C692C400099631C /* Semana2MiniretoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C74E401C692C400099631C /* Build configuration list for PBXNativeTarget "Semana2MiniretoUITests" */;
+			buildPhases = (
+				B9C74E2D1C692C400099631C /* Sources */,
+				B9C74E2E1C692C400099631C /* Frameworks */,
+				B9C74E2F1C692C400099631C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9C74E331C692C400099631C /* PBXTargetDependency */,
+			);
+			name = Semana2MiniretoUITests;
+			productName = Semana2MiniretoUITests;
+			productReference = B9C74E311C692C400099631C /* Semana2MiniretoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9C74E0A1C692C400099631C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AleVenOrt;
+				TargetAttributes = {
+					B9C74E111C692C400099631C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B9C74E251C692C400099631C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B9C74E111C692C400099631C;
+					};
+					B9C74E301C692C400099631C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B9C74E111C692C400099631C;
+					};
+				};
+			};
+			buildConfigurationList = B9C74E0D1C692C400099631C /* Build configuration list for PBXProject "Semana2Minireto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9C74E091C692C400099631C;
+			productRefGroup = B9C74E131C692C400099631C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9C74E111C692C400099631C /* Semana2Minireto */,
+				B9C74E251C692C400099631C /* Semana2MiniretoTests */,
+				B9C74E301C692C400099631C /* Semana2MiniretoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9C74E101C692C400099631C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C74E201C692C400099631C /* LaunchScreen.storyboard in Resources */,
+				B9C74E1D1C692C400099631C /* Assets.xcassets in Resources */,
+				B9C74E1B1C692C400099631C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C74E241C692C400099631C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C74E2F1C692C400099631C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9C74E0E1C692C400099631C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C74E181C692C400099631C /* ViewController.swift in Sources */,
+				B9C74E161C692C400099631C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C74E221C692C400099631C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C74E2B1C692C400099631C /* Semana2MiniretoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C74E2D1C692C400099631C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C74E361C692C400099631C /* Semana2MiniretoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9C74E281C692C400099631C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9C74E111C692C400099631C /* Semana2Minireto */;
+			targetProxy = B9C74E271C692C400099631C /* PBXContainerItemProxy */;
+		};
+		B9C74E331C692C400099631C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9C74E111C692C400099631C /* Semana2Minireto */;
+			targetProxy = B9C74E321C692C400099631C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9C74E191C692C400099631C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9C74E1A1C692C400099631C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9C74E1E1C692C400099631C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9C74E1F1C692C400099631C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9C74E381C692C400099631C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9C74E391C692C400099631C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9C74E3B1C692C400099631C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Semana2Minireto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AleVenOrt.Semana2Minireto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9C74E3C1C692C400099631C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Semana2Minireto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AleVenOrt.Semana2Minireto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9C74E3E1C692C400099631C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Semana2MiniretoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AleVenOrt.Semana2MiniretoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semana2Minireto.app/Semana2Minireto";
+			};
+			name = Debug;
+		};
+		B9C74E3F1C692C400099631C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Semana2MiniretoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AleVenOrt.Semana2MiniretoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semana2Minireto.app/Semana2Minireto";
+			};
+			name = Release;
+		};
+		B9C74E411C692C400099631C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Semana2MiniretoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AleVenOrt.Semana2MiniretoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Semana2Minireto;
+			};
+			name = Debug;
+		};
+		B9C74E421C692C400099631C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Semana2MiniretoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AleVenOrt.Semana2MiniretoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Semana2Minireto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9C74E0D1C692C400099631C /* Build configuration list for PBXProject "Semana2Minireto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C74E381C692C400099631C /* Debug */,
+				B9C74E391C692C400099631C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C74E3A1C692C400099631C /* Build configuration list for PBXNativeTarget "Semana2Minireto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C74E3B1C692C400099631C /* Debug */,
+				B9C74E3C1C692C400099631C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9C74E3D1C692C400099631C /* Build configuration list for PBXNativeTarget "Semana2MiniretoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C74E3E1C692C400099631C /* Debug */,
+				B9C74E3F1C692C400099631C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9C74E401C692C400099631C /* Build configuration list for PBXNativeTarget "Semana2MiniretoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C74E411C692C400099631C /* Debug */,
+				B9C74E421C692C400099631C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9C74E0A1C692C400099631C /* Project object */;
+}
